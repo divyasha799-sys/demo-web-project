@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int a,b,choice;
+    cin>>choice;
+    switch(choice)
+    {
+        case 1:
+        cin>>a;
+        cin>>b;
+        if(a>b)
+        {
+            cout<<"a is bigger than b";
+        }
+        else
+        {
+            cout<<"b is bigger than a";
+        }
+        break;
+        
+    }
+}

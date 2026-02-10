@@ -1,0 +1,78 @@
+int main()
+{
+    int a, b, choice;
+    cin >> choice;
+    switch (choice)
+    {
+        case 1:
+            cin >> a;
+            cin >> b;
+            if (a > b)
+            {
+                cout << "a is big ";
+            }
+            else
+            {
+                cout << "b is big";
+            }
+            break;
+        case 2:
+            int c;
+            cin >> a;
+            b = (a * a) * 3.14;
+            c = 2 * 3.14 * a;
+            cout << "area =" << b;
+            cout << "\ncircum=" << c;
+            break;
+        case 3:
+            cin >> b;
+            c = a;
+            a = b;
+            cout << "\nswap" << c;
+            break;
+        case 4:
+            int x, y;
+            if (y = x % 400 == 0)
+            {
+                cout << "\nleap year " << y;
+            }
+            else
+            {
+                cout << "\nnot leap year " << y;
+            }
+            break;
+            switch(choice)
+            {
+                case 5:
+                    int m, n, d, e, f, g, choice;
+                cin >> m;
+                cin >> n;
+                cin >> choice;
+                switch (choice)
+                    c = m + n;
+                d = m - n;
+                e = m * n;
+                f = m % n;
+                g = m / n;
+                {
+                    case 1:
+                        cout << "\nadd" << c;
+                    break;
+                    case 2:
+                        cout << "\nsub" << d;
+                    break;
+                    case 3:
+                        cout << "\nmulti" << e;
+                    break;
+                    case 4:
+                        cout << "\ndiv" << f;
+                    break;
+                    default :
+                    cout << "\nmod" << g;
+                    break;
+                }
+            }
+            break;
+        }
+    }
+            
